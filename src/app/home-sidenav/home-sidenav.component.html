@@ -5,8 +5,15 @@
       </div>
   </mat-sidenav>
   <mat-sidenav-content>
-    <div class="container">
+    <div>
         <mat-icon (click)="sidenav.toggle()" class="md-48 box-icon-menu" >menu</mat-icon>
+        <div class="box-input-search">
+          <form class="example-form">
+          <mat-form-field>
+            <input matInput placeholder="Where to?" >
+          </mat-form-field>
+        </form>
+        </div>
         maps here
     </div>
   </mat-sidenav-content>
