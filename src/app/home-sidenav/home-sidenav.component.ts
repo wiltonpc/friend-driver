@@ -9,8 +9,7 @@ import { FormControl } from '@angular/forms';
 })
 
 export class HomeSidenavComponent implements OnInit {
-  x = true;
-  mode = !this.x;
+
  constructor() { }
 
   ngOnInit() {

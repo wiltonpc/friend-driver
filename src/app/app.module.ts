@@ -6,6 +6,7 @@ import { MatRadioModule } from '@angular/material/radio';
 import { MatBottomSheetModule } from '@angular/material/bottom-sheet';
 import { MatButtonModule } from '@angular/material/button';
 import { MatButtonToggleModule } from '@angular/material/button-toggle';
+import {MatIconModule} from '@angular/material/icon';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 
 import { NgModule } from '@angular/core';
@@ -28,7 +29,8 @@ import { HomeSidenavComponent } from './home-sidenav/home-sidenav.component';
     MatRadioModule,
     MatBottomSheetModule,
     MatButtonModule,
-    MatButtonToggleModule
+    MatButtonToggleModule,
+    MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]

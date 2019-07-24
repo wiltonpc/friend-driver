@@ -1,15 +1,13 @@
-<mat-sidenav-container class="example-container" >
-  <mat-sidenav #sidenav [mode]="mode.value">
-    <p><button mat-button (click)="sidenav.toggle()">Toggle</button></p>
-    <p>
+<mat-sidenav-container>
+  <mat-sidenav #sidenav >
+      <div class="container">
 
-    </p>
+      </div>
   </mat-sidenav>
-
   <mat-sidenav-content>
-    <p><button mat-button (click)="sidenav.toggle()">Toggle</button></p>
-    <p>
-
-    </p>
+    <div class="container">
+        <mat-icon (click)="sidenav.toggle()" class="md-48 box-icon-menu" >menu</mat-icon>
+        maps here
+    </div>
   </mat-sidenav-content>
 </mat-sidenav-container>
