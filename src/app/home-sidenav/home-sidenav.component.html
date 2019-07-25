@@ -1,18 +1,14 @@
 <mat-sidenav-container>
   <mat-sidenav #sidenav >
       <div class="container">
-
+            <mat-icon (click)="sidenav.toggle()" class="md-36" >arrow_back_ios</mat-icon>
       </div>
   </mat-sidenav>
   <mat-sidenav-content>
     <div>
         <mat-icon (click)="sidenav.toggle()" class="md-48 box-icon-menu" >menu</mat-icon>
         <div class="box-input-search">
-          <form class="example-form">
-          <mat-form-field>
-            <input matInput placeholder="Where to?" >
-          </mat-form-field>
-        </form>
+            <input class="input-search" disabled="disabled" type="text" placeholder="Where to?" >
         </div>
         maps here
     </div>
